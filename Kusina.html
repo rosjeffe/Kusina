@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <img src="">
+    <link rel="stylesheet" href="kusinaCompass.css">
+</head>
+<body>
+    <img src="/Pcis/Logo.png" alt="kusinaCompass">
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="#home">Home</a></li> 
+            <li><a href="#stores">Stores</a></li>
+            <li><a href="#Login">Login</a></li> 
+            <li><a href="#About Us"> About Us </a></li>
+            <li><a href="#Contact Us"> Contact Us</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);"onclick="dropdownMenu()">&#9776;</a></li>
+
+        </ul>
+    </nav>
+    <br>
+    <br>
+        <div class="Motto"><p>Find your Desired Food in the listed Stores</p></div>
+    
+    <div class="Button">
+        <button class="FindStore"> Find Store</button>
+
+    </div>
+
+    <div class="BBQ">
+        <img src="/Pcis/plate-removebg-preview.png" alt="BBQ">
+    </div>
+</body>
+
+<script>
+    function dropdownMenu() {
+    let x = document.getElementById("dropdownClick");
+    if (x.className === "topnav"){
+        x.className += " responsive";
+        /* change to top nav to topnav.responsive*/
+        
+    } else {
+      x.className = "topnav";
+    }
+    }
+
+    </script>   
+    
+
+</html>

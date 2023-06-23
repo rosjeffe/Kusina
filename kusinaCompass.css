@@ -1,0 +1,161 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    background-image: url(/Pcis/backgroundSteak-modifiedsss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+/* Custom style */
+img{
+    margin-left: 0;
+    margin-top: 2%;
+    width: 250px;
+}
+
+.Motto{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    box-sizing: border-box;
+    width: 390px;
+    margin-left:10%;
+    margin-top: 2%;
+    
+}
+.FindStore{
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    background-color:#F3B83A ;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 30%;
+    
+   
+}
+
+.BBQ img{
+    width: 510px;
+    margin-top: -17%;
+    margin-left:65%;
+}
+
+/* Nav Bar Styles */
+
+ul.topnav{
+    margin-left: 50%
+}  
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+ul.topnav li {
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+    
+}
+
+
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 3px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    
+    
+}
+ul.topnav li a:hover{
+    color: #F3B83A;
+   
+
+}
+/* mobile State */
+@media only screen and (max-width: 980px) {
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+        
+       
+    }
+   
+    ul.topnav{
+        margin-left: 0%;
+
+    }  
+
+    ul.topnav li.dropdownIcon {
+        display: block; 
+        float: right;
+    
+       
+    }
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
+    ul.topnav.responsive {
+        position: relative
+    
+    }
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+        }
+    div.mobileState{
+        width: 50%;
+        display: block;
+    }
+    div.mobileState{
+        width: 50%;
+        display: block;
+       
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+        
+       
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+        margin-bottom: -1%;
+        font-size: 10px;
+    }
+    .Motto{
+    text-align:center ;
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 160px;
+    margin-left:5%;
+    margin-top: 0%;
+    padding: 5px;
+    
+    }
+    .FindStore{
+        font-size: 20px;
+        font-weight: 100;
+        color: white;
+        background-color:#F3B83A ;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 20%;
+        margin-top: -5%;
+}
+.BBQ img{
+    width: 200px;
+    margin-top: -45%;
+    margin-left:55%;
+
+}
+}

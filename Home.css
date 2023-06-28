@@ -71,7 +71,7 @@ div.geoLoc .btn{
 }
 
 .form-group label{
-    font-size: 27px;
+    font-size: 12px;
    
    
 }
@@ -85,13 +85,13 @@ form{
 .form-group input.form-control{
 width: 250px;
 height: 30px;
-font-size: 17px;
+font-size: 15px;
 margin-bottom: 0;
 }
 
 
 #emailHelp{
-    font-size: 17px;
+    font-size: 14px;
     
 }
 #exampleCheck1{

@@ -9,14 +9,16 @@ header{
     
     background-image: url(/Pcis/COFEE255.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
     width: 100%;
-    height: 400px;
-    margin-bottom: -50%;
-   
-
+    height: 160px;
+    /* margin-bottom: -50%; */
 }
+
+
 .box1{
     display: flex;
 }
@@ -31,12 +33,12 @@ header{
 }
 
 
-.Logo{
+/* .Logo{
     width: 85%;
     height: 20%;
     margin-top: -15%;
     margin-bottom: -100%;
-}
+} */
 
  
 ul.Login li .btn-outline-light{
@@ -63,12 +65,12 @@ div.geoLoc .btn{
 }
 
 /* *******Admin Login Page****** */
-.LogoLogin{
+/* .LogoLogin{
     margin-top: 9%;
     width:22%;
     height: 20%;
     margin-left: 0.%;
-}
+} */
 
 .form-group label{
     font-size: 12px;
@@ -101,35 +103,44 @@ height: 20px;
 form button {
     width: 130px;
     height: 30px;
-} .btn-primary {
+}
+ .btn-primary {
 font-size: 15px;
 padding-top: 1px;
 text-align: center;
 
+
 }
+/* .btn-secondary{
+    width: 1000px;
+} */
 
 /* ***********************Mobile*************** *********** */
 @media screen and (max-width:600px){
-    .Logo {
+    /* .Logo {
     width: 50px;
     height:50px ;
-    margin-top: -10%;
+    margin-top: -10%; */
     
+    }     
         
-        
-    }
+    /* }
     .LogoLogin{
     width: 60px;
     height:50px ;
     margin-top: 4%;
 
-    }
+    } */
 
     header{
-    background-size: contain;
-    background-attachment: fixed;
-    width: 100%;
-    height: 400px;;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    /* background-size: contain;
+    background-attachment: fixed; */
+    /* width: 100%;
+    height: 150px; */
+    
     }
 
     ul.Login li .btn-outline-light{
@@ -156,10 +167,11 @@ div.geoLoc input{
 }
 
 div.geoLoc .btn .btn-secondary{
-    margin-top: 3%;
+    margin-top: 30%;
     margin-left: 1%;
     padding: 2px;
     width: 130px;
+    height: 0;
 
 }
 

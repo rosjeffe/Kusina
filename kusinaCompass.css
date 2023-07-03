@@ -1,22 +1,9 @@
 
-
-.card img,.card-body{
-  background-color: transparent !important;
-  border: 1px  white;
-}
-div.Carding{
-  background-image: url(/Pcis/restoOpacity.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
- 
-  
-}
-
 *{
   margin: 0;
 }
+
+/******************Nav Bar Design  **********************/
 .card{
   border-color:white !important;
   background-color: transparent !important;
@@ -83,8 +70,13 @@ nav.navbar {
   margin-top: -10%;
     
   }
+
+  /**********Kusina home Page Carosel  ***********************/
   div.Caros{
     background-color: #03ADFF;
+    -webkit-box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
+-moz-box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
+box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
   }
   div.Caros{
     background-image: url(/Pcis/backgroundSteak-modified1120x315.jpg);
@@ -92,10 +84,82 @@ nav.navbar {
     background-position: center;
     background-size: cover;
   }
+
+  .card img,.card-body{
+    background-color: transparent !important;
+    border: 1px  white;
+    
+  }
+  .center-align {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center-align .ratio {
+    text-align: center;
+  }
+  
+  /* .card img{
+  
+    -webkit-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  -moz-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  
+  }
+  
+  .card-body{
+  
+    -webkit-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  -moz-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+  } */
+  div.Carding{
+    background-image: url(/Pcis/restoOpacity.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+  }
+
+/* ************Contact us********************* */
+#carouselExampleCaptions {
+  max-width: 500px; 
+  margin:  auto; 
+  /* -webkit-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+-moz-box-shadow: 1px -8px 17px -1px rgba(243,157,47,1);
+box-shadow: 1px -8px 17px -1px rgba(243,157,47,1); */
+
+}
+
+.carousel-item img {
+  max-width: 75%;
+  height: auto; 
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+
+.Aboutus p{
+  margin-top: -36%;
+  margin-left: 100px;
+  width: 400px;
+}
+
+/* div .AboutusContainer p{
+  color: #000000 !important;
+  padding: 5% !important;
+text-shadow: #ffffff 2px !important;
+} */
+.AboutUsBackground{
+  background-image: url(/Pcis/table.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
   /* ********** Admin Login Page *************/
   
   div.col-12.Username input{
-    width: 250px;
+    width: 200px;
     justify-content: center;
     padding: 2px;
     border: 2.2px solid #F39D2F;
@@ -112,7 +176,7 @@ nav.navbar {
   }
 
   label{
-    width: 150px;
+    width: 90px;
   }
   .PassAndCreate,.PassAndCreateForgot {
     display: flex;
@@ -126,9 +190,10 @@ nav.navbar {
     background-color:#03ADFF;
     border: 2.2px solid white;
     margin-left: 5px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     border-radius: 5px;
     color: white;
+    /* margin-top: 30%; */
     
   }
   .PassAndCreateForgot button{
@@ -136,8 +201,8 @@ nav.navbar {
     width:150px;
     background-color:#e2c093;
     border: 2.2px solid white;
-    margin-left: 5px;
-    margin-top: 15px;
+    /* margin-left: 5px; */
+    /* margin-top: 15px; */
     border-radius: 5px;
     color: white;
   }
@@ -148,3 +213,26 @@ nav.navbar {
   .PassAndCreateForgot button:hover{
     background-color: #F39D2F;
   }
+  .socialIcons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .SocIcon {
+    align-items: center;
+    width: 25px !important;
+    height: 25px;
+    margin: 5px;
+    
+    
+  }
+/***********   Mobile  **********/
+
+
+
+
+  
+

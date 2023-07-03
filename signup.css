@@ -107,7 +107,7 @@ form input{
     width: 80%;
     border-radius: 10px;
     border-style: groove;
-    border-color: aquamarine;
+    border-color: #F39D2F;
 }
 
 form input.storeHours{

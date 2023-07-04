@@ -172,6 +172,9 @@ box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
     width: 55px;
     margin-left: 15px;
   }
+  .ContactUsIcon:hover{
+  transform: translateY(-20px);
+  }
 /* ************About us********************* */
 #carouselExampleCaptions {
   max-width: 500px; 
@@ -269,6 +272,7 @@ text-shadow: #ffffff 2px !important;
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   
@@ -279,7 +283,9 @@ text-shadow: #ffffff 2px !important;
     height: 25px;
     margin: 5px;
     
-    
+  }
+    .SocIcon:hover {
+    transform: translateY(-7px);
   }
 /***********   Mobile  **********/
 

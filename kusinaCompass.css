@@ -34,6 +34,13 @@ nav.navbar {
     font-size: 50px;
   }
   
+body.ContactUSBack{
+    background-image: url(/Pcis/contactusbackground.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .btn-outline-success,.dropdown-item:hover{
     background-color:#F39D2F !important; 
     border-color: white;
@@ -120,9 +127,52 @@ box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
+   
   }
 
-/* ************Contact us********************* */
+  /**********Contact Us  ***********************/
+  
+  .form-control,.contactSubmit {
+    background-color: transparent !important;
+    border-color: #e2c093 !important;
+    
+  }
+
+  .form-label,#exampleFormControlInput1 {
+    color: white !important; 
+    width: 250px;
+  }
+
+  #exampleFormControlTextarea1{
+    width: 40%;
+    height: 300px;
+    color: white;
+    font-size: 10px;
+  }
+  .contactSubmit{
+    color:white;
+    border:1px #e2c093 solid;
+    border-radius: 5px;
+  }
+
+  .contactSubmit:hover{
+    color: white;
+    background-color: #F39D2F !important;
+  }
+
+  div.contactUsReachUs {
+    color: #e2c093 !important;
+    text-align: center;
+    font-weight: 900px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .ContactUsIcon{
+    width: 55px;
+    margin-left: 15px;
+  }
+/* ************About us********************* */
 #carouselExampleCaptions {
   max-width: 500px; 
   margin:  auto; 

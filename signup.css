@@ -1,8 +1,9 @@
 
 
-.card img,.card-body{
+/* .card img,.card-body{
     background-color: transparent !important;
     border: 1px  white;
+    background-image: url(/Pcis/About\ Us\ back.jpg);
   }
   div.Carding{
     background-image: url(/Pcis/restoOpacity.png);
@@ -12,15 +13,21 @@
   
    
     
-  }
+  } */
   
   *{
     margin: 0;
   }
-  .card{
+
+  body{
+    background-image: url(/Pcis/contactusbackground.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  /* .card{
     border-color:white !important;
     background-color: transparent !important;
-  }
+  } */
   nav.navbar {
       background-color: transparent !important;
   }
@@ -43,6 +50,7 @@
   
     .form-control{
       font-size: 50px;
+      background-color: transparent;
     }
     
     .btn-outline-success,.dropdown-item:hover{
@@ -54,6 +62,7 @@
       color: white !important;
       border-color: white !important;
       width: 150px !important;
+      background-color: transparent;
     }
     .navbar-nav .dropdown-menu{
       margin-left: 8% !important;
@@ -98,6 +107,7 @@ form{
     /* background: red; */
     margin-top: 70px;
     margin-left: 60px;
+    
 }
 
 form input{
@@ -108,12 +118,15 @@ form input{
     border-radius: 10px;
     border-style: groove;
     border-color: #F39D2F;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 form input.storeHours{
     width: auto;
     min-width: 160px;
     display: inline-block;
+    
 }
 
 .map{
@@ -122,7 +135,18 @@ form input.storeHours{
     padding-right: 40px;
 
 }
+div.signup-button button{
+  background-color: transparent;
+  color: white;
+  border: 2px solid #e2c093;
+  border-radius: 5px ;
 
+}
+div.signup-button :hover{
+  background-color: #F39D2F;
+  font-weight: 600;
+  
+}
 @media (min-width: 1024px){
     .container{
         flex-direction: row;

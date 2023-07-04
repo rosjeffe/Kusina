@@ -107,6 +107,9 @@ box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
   .center-align .ratio {
     text-align: center;
   }
+  .card:hover{
+    transform: translateY(-20px);
+  }
   
   /* .card img{
   

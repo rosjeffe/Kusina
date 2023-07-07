@@ -3,6 +3,7 @@
   margin: 0;
 }
 
+
 /******************Nav Bar Design  **********************/
 .card{
   border-color:white !important;
@@ -109,6 +110,7 @@ box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
   }
   .card:hover{
     transform: translateY(-20px);
+    transition: transform 0.3s;
   }
   
   /* .card img{
@@ -177,6 +179,7 @@ box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
   }
   .ContactUsIcon:hover{
   transform: translateY(-20px);
+  transition: transform 0.3s;
   }
 /* ************About us********************* */
 #carouselExampleCaptions {
@@ -289,6 +292,8 @@ text-shadow: #ffffff 2px !important;
   }
     .SocIcon:hover {
     transform: translateY(-7px);
+    transition: transform 0.3s;
+    
   }
 /***********   Mobile  **********/
 

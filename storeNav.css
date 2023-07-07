@@ -1,11 +1,19 @@
+
+body.storeNavbackground{
+  background-image: url(/Pcis/BackgroundStoreNav.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card img,.card-body{
     background-color: transparent !important;
     border: 1px  white;
   }
   div.Carding{
     background-image: url(/Pcis/restoOpacity.png);
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   
    
@@ -80,4 +88,9 @@
     .navbar-toggler{
     margin-top: -10%;
       
+    }
+
+    /********Store Nav  *********/
+    div.restaurant img{
+      background-color: transparent !important;
     }

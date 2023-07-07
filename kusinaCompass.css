@@ -89,7 +89,7 @@ body.ContactUSBack{
 box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
   }
   div.Caros{
-    background-image: url(/Pcis/backgroundSteak-modified1120x315.jpg);
+    background-image: URL(./Pcis/backgroundSteak-modified1120x315.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -36,7 +36,7 @@ nav.navbar {
   }
   
 body.ContactUSBack{
-    background-image: url(/Pcis/contactusbackground.JPG) ;
+    background-image: url(/Pcis/contactusbackground.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +89,7 @@ body.ContactUSBack{
 box-shadow: -1px 1px 17px -1px rgba(243,157,47,1);
   }
   div.Caros{
-    background-image: url(/Pcis/backgroundSteak-modified1120x315.JPG);
+    background-image: url(/Pcis/backgroundSteak-modified1120x315.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -212,7 +212,7 @@ box-shadow: 1px -8px 17px -1px rgba(243,157,47,1); */
 text-shadow: #ffffff 2px !important;
 } */
 .AboutUsBackground{
-  background-image: url(/Pcis/table.JPG);
+  background-image: url(/Pcis/table.jpg);
   background-position: center;
   background-size: cover;
 }

@@ -20,7 +20,7 @@
   }
 
   body{
-    background-image: url(/Pcis/contactusbackground.jpg);
+    background-image: url(./Pcis/contactusbackground.jpg);
     background-position: center;
     background-size: cover;
   }
